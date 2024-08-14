@@ -1,3 +1,10 @@
+import Body from './components/Body';
+
 export default function App() {
-  return <h1 className='text-3xl font-bold'>Hello world!</h1>;
+  return (
+    <div>
+      <h1 className='text-3xl font-bold'>Memes Application</h1>
+      <Body />
+    </div>
+  );
 }
